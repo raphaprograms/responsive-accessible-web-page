@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header role="banner">
+        <img src="https://cdn.shopify.com/s/files/1/0558/6413/1764/files/Blue_Logo_Design_11_1024x1024.webp?v=1739363798" alt="company logo" height="auto" width="50">
+        <nav role="navigation">
+            <ul tabindex="0">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about-us">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="hero">
+            <h1>Hero, Super Hero!</h1>
+            <h2>Join Accessible Design Co. as mailing list member!</h2>
+            <a href="#contact">
+                <button role="button" type="button" tabindex="0" aria-label="Click to go to the form">Click Here!</button>
+            </a>
+        </section>
+        <section id="about-us">
+            <article>
+                <h3>Welcome to Accessible Design Co.</h3>
+                <p>Here we ensure all users have an incredible experience using our sites.
+                    We work with many businesses and individuals to make the internet a more 
+                    accessible place, one web page at a time!
+                </p>
+            </article>
+        </section>
+        <section id="services">
+            <div class="grid-container">
+                <div class="item item1">
+                    <img src="https://www.codekingsolutions.com/frontend/images/1-icon.png" alt="Graph trending up with magnifying glass.">
+                    <p>We offer analytics, we can analyze any part of your business to improve it!</p>
+                </div>
+                <div class="item item2">
+                    <img src="https://www.codekingsolutions.com/frontend/images/2-icon.png" alt="HTML element brackets in a square.">
+                    <p>We offer web developing services. You need a site? we can build it for you!</p>
+                </div>
+                <div class="item item3">
+                    <img src="https://www.codekingsolutions.com/frontend/images/3-icon.png" alt="Terminal icon.">
+                    <p>We offer file organization and maintainance. We can maintain a site you have built or one we have built for you.</p>
+                </div>
+                <div class="item item4">
+                    <img src="https://www.codekingsolutions.com/frontend/images/4-icon.png" alt="Terminal coming out of desktop monitor.">
+                    <p>We offer bundles, bundle our servieces for a generous discount. Referrals earn even more off your price.</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <fieldset>
+                <legend>Fill in your contact information below</legend>
+            
+                    <label for="name">Full Name</label>
+                    <input class="contact-input" id="name" type="text" name="name" placeholder="W. E. B. Du Bois" required>
+                
+            
+                    <label for="email">Email</label>
+                    <input class="contact-input" id="email" type="email" name="email" placeholder="WEB.DuBois@gmail.com" required aria-describedby="confidentiality">
+                    <small id="confidentiality">Your email is kept private!</small>
+                
+            
+                    <label for="subject">Subject</label>
+                    <input class="contact-subject" id="subject" type="text" name="subject" placeholder="Talk to us!">
+            
+                    <label for="message">Your Message to us:</label>
+                    <textarea class="contact-message" name="message" id="message" cols="30" rows="10" placeholder="The most important thing to remember is this: to be ready at any moment to give up what you are for what you might become."></textarea>
+
+                    <button role="button" type="submit" tabindex="0" aria-label="Click to submit the form.">Send Your Information!</button>
+            </fieldset>
+        </section>
+    </main>
+    <footer>
+        <ul>
+            <li>&copy;2025 Accessible Design Co.</li>
+            <li><a href="">Instagram</a></li>
+            <li><p><a href="">Facebook</a></li>
+            <li>help@<a href="">accessibledesignco.com</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
